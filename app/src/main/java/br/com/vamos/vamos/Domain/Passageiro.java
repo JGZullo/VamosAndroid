@@ -1,4 +1,4 @@
-package br.com.vamos.vamos;
+package br.com.vamos.vamos.Domain;
 
 import android.os.Parcel;
 import android.os.Parcelable;

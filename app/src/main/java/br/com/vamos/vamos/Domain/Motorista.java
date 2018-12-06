@@ -1,4 +1,4 @@
-package br.com.vamos.vamos;
+package br.com.vamos.vamos.Domain;
 
 public class Motorista {
 

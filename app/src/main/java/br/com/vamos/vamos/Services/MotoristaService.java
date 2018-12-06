@@ -1,6 +1,6 @@
 package br.com.vamos.vamos.Services;
 
-import br.com.vamos.vamos.Motorista;
+import br.com.vamos.vamos.Domain.Motorista;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
