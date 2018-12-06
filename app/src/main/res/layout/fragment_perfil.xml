@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDC0B0">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="7dp" >
+
+        <ImageView
+            android:id="@+id/imgPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txtNomePerfil"
+            android:drawableLeft="@drawable/ic_perfil_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="Cláudio Nobre Consgrado" />
+        <TextView
+            android:id="@+id/txtEmailPerfil"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:text="usuario@email.com.br"/>
+        <TextView
+            android:id="@+id/txtTelefonePerfil"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="60dp"
+            android:text="(XX) XXXXX-XXXX"/>
+
+    </android.support.v7.widget.CardView>
+
+    <ListView
+        android:id="@+id/listGrupos"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="111dp"
+        android:background="#FDFEFE"
+        android:fadingEdge="horizontal|vertical"
+        android:fastScrollEnabled="false"
+        android:isScrollContainer="true"
+        android:smoothScrollbar="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vamos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="escolher_perfil_cadastro_titulo">Escolha um perfil que melhor se encaixa para você!</string>
+    <string name="cadastro_motorista_titulo">Olá motorista! Insira os dados abaixo para realizar seu cadastro:</string>
+    <string name="cadastro_passageiro_titulo">Olá passageiro! Insira os dados abaixo para realizar seu cadastro:</string>
+</resources>
